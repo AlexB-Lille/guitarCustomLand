@@ -1,0 +1,148 @@
+{
+  "necks": [
+    {
+      "id": "nec-st",
+      "name": "Stratocaster Neck",
+      "type": "neck",
+      "description": "Classic Strat maple neck with vintage tone",
+      "price": 299,
+      "image": "nec-st.png",
+      "specs": {
+        "material": "Maple",
+        "frets": 22,
+        "radius": "9.5\""
+      }
+    },
+    {
+      "id": "nec-lesp",
+      "name": "Les Paul Neck",
+      "type": "neck",
+      "description": "Mahogany neck with rosewood fretboard",
+      "price": 349,
+      "image": "nec-lesp.png",
+      "specs": {
+        "material": "Mahogany",
+        "frets": 22,
+        "radius": "12\""
+      }
+    },
+    {
+      "id": "nec-exp",
+      "name": "Explorer Neck",
+      "type": "neck",
+      "description": "Aggressive V-profile for metal shredding",
+      "price": 329,
+      "image": "nec-exp.png",
+      "specs": {
+        "material": "Maple",
+        "frets": 24,
+        "radius": "10\""
+      }
+    },
+    {
+      "id": "nec-vip",
+      "name": "VIP Custom Neck",
+      "type": "neck",
+      "description": "Premium exotic wood with mother of pearl inlays",
+      "price": 599,
+      "image": "nec-vip.png",
+      "specs": {
+        "material": "Rosewood",
+        "frets": 24,
+        "radius": "12\""
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "id": "bod-st",
+      "name": "Stratocaster Body",
+      "type": "body",
+      "description": "Iconic double-cutaway alder body",
+      "price": 449,
+      "image": "bod-st.png",
+      "specs": {
+        "material": "Alder",
+        "finish": "Gloss Black",
+        "weight": "3.5kg"
+      }
+    },
+    {
+      "id": "bod-lesp",
+      "name": "Les Paul Body",
+      "type": "body",
+      "description": "Single-cutaway mahogany powerhouse",
+      "price": 549,
+      "image": "bod-lesp.png",
+      "specs": {
+        "material": "Mahogany",
+        "finish": "Vintage Sunburst",
+        "weight": "4.2kg"
+      }
+    },
+    {
+      "id": "bod-exp",
+      "name": "Explorer Body",
+      "type": "body",
+      "description": "Radical angular design for extreme tone",
+      "price": 499,
+      "image": "bod-exp.png",
+      "specs": {
+        "material": "Korina",
+        "finish": "Metallic Black",
+        "weight": "3.8kg"
+      }
+    },
+    {
+      "id": "bod-vip",
+      "name": "VIP Custom Body",
+      "type": "body",
+      "description": "Hand-carved premium body with custom artwork",
+      "price": 899,
+      "image": "bod-vip.png",
+      "specs": {
+        "material": "Ash with Flame Maple Top",
+        "finish": "Skull Engraved",
+        "weight": "4.0kg"
+      }
+    }
+  ],
+  "shipping": [
+    {
+      "id": "standard",
+      "name": "Standard Shipping",
+      "price": 25,
+      "duration": "5-7 business days"
+    },
+    {
+      "id": "express",
+      "name": "Express Shipping",
+      "price": 50,
+      "duration": "2-3 business days"
+    },
+    {
+      "id": "overnight",
+      "name": "Overnight Delivery",
+      "price": 100,
+      "duration": "Next business day"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "card",
+      "name": "Credit/Debit Card",
+      "icon": "CreditCard",
+      "accepted": ["Visa", "Mastercard", "Amex"]
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "icon": "Wallet"
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "icon": "Bitcoin"
+    }
+  ]
+}
